@@ -2,7 +2,7 @@
 //
 // Created by: Hai Tran
 // Created on: Feb 2025
-// This program calculates the area of a circle with a radius of 42mm
+// This program calculates the circumference of a circle with a diameter of 42mm
 //
 //
 
@@ -10,9 +10,9 @@
 #include <math.h>
 
 int main() {
-    // this function calculates the area of a circle
-    printf("If a circle has a radius of 42 mm:\n");
-    printf("\nArea is %.5f mm².\n", M_PI * pow(42, 2));
+    // this function calculates the circumference of a circle
+    printf("If a circle has a diameter of 42 mm:\n");
+    printf("\nCircumference is %.5f mm.\n", M_PI * 42);
 
     printf("\nDone.\n");
     return 0;
